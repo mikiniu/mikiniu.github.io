@@ -9,7 +9,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
 }
-h1 {
+h1.logo {
   font-size: 44px;
   font-weight: 700;
   color: #ddd;
@@ -19,7 +19,6 @@ h1 {
   margin-top: 0px;
   margin-bottom: 38px;
   line-height: 132px;
-  text-align: center;
 }
 /* #logotyp {
   background-image: url("img/cartographer/cartographer.png");
@@ -55,8 +54,7 @@ nav {
 }
 .subject {
   display: inline-block;
-  width: auto;
-  height: auto;
+  width: 400px;
 }
 img {
   max-width: 100%;
@@ -74,11 +72,6 @@ figure {
   margin: 8px;
   padding: 0px;
 }
-
-.categories {
-  text-align: center;
-}
-
 #mymap {
   height: 70vh;
   width: auto;
